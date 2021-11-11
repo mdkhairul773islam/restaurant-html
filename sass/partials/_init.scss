@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+@import url('https://fonts.googleapis.com/css?family=Philosopher:400,700');
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    font-family: 'Roboto Slab', serif;
+    background-image: url('../images/pattern/01.jpg');
+    background-repeat: repeat;
+    background-color: #f2d3b2;
+}
+a,
+a:link,
+a:hover,
+a:active,
+a:visited {text-decoration: none;}
+p {
+    font-size: 14px;
+    color: #5B2627;
+}
+img {
+    max-width: 100%;
+    width: auto;
+}
+ul, ol {list-style-type: none;}

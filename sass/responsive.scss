@@ -1,0 +1,28 @@
+/* responsive style start */
+@media screen and (max-width: 768px) {
+    /* nav style */
+    .nav-div {
+		min-height: calc(100% + 22vh + 10px) !important;
+        margin-top: -20vh !important;
+    }
+
+    /* reservetion style start */
+    .reservetion {
+    	top: 15px;
+    	right: 15px;
+    	width: 90px;
+        .title-img {width: 100%;}
+    	.reservetion-box {
+            min-height: 90px;
+    		img {width: 45px;}
+    		h6 {
+    			font-size: 12px;
+    			letter-spacing: 0;
+    			word-spacing: 0;
+    		}
+    	}
+    }
+
+    /* modal style start */
+	.modal-dialog {padding: 0 7px !important;}
+}

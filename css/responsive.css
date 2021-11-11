@@ -1,0 +1,28 @@
+/* responsive style start */
+@media screen and (max-width: 768px) {
+  /* nav style */
+  .nav-div {
+    min-height: calc(100% + 22vh + 10px) !important;
+    margin-top: -20vh !important; }
+
+  /* reservetion style start */
+  .reservetion {
+    top: 15px;
+    right: 15px;
+    width: 90px; }
+    .reservetion .title-img {
+      width: 100%; }
+    .reservetion .reservetion-box {
+      min-height: 90px; }
+      .reservetion .reservetion-box img {
+        width: 45px; }
+      .reservetion .reservetion-box h6 {
+        font-size: 12px;
+        letter-spacing: 0;
+        word-spacing: 0; }
+
+  /* modal style start */
+  .modal-dialog {
+    padding: 0 7px !important; } }
+
+/*# sourceMappingURL=responsive.css.map */
